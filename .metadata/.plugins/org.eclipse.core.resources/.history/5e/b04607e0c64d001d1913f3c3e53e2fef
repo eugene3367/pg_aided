@@ -1,0 +1,10 @@
+package composite;
+
+public class CompositeEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
