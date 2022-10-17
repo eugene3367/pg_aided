@@ -1,7 +1,10 @@
 package factoryMethod;
 
-public class Cat {
-	Cat(){}
-	public Cat(String data){ return;}
-	public String tostring(){ return "Cat";}
+public class Cat extends Animal {
+	Cat() { }
+	public Cat(String data){
+		System.out.println("Dog Create");
+		return;
+	}
+	public String toString() { return "Cat"; }
 }

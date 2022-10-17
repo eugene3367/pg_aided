@@ -8,15 +8,12 @@ public class Human {
 		this.name = name;
 		this.age = age;
 	}
-	
-	public void printName(){
+
+	public void printName() {
 		System.out.println(this.name);
 	}
 	
 	public void printAge(){
 		System.out.println(this.age);
 	}
-	
-	
-
 }
