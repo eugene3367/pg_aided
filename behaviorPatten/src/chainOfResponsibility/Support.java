@@ -1,0 +1,23 @@
+package chainOfResponsibility;
+
+public abstract class Support {
+	//이 트러블 해결자의 이름
+	private String name;
+	
+	private Support next;
+	public Support(String name){
+		this.name = name;
+	}
+	
+	public Support setNext(Support next){
+		this.next = next;
+		return next;
+	}
+	
+	public void support(Trouble trouble){
+		if(resolve(trouble)){
+			done(trouble);
+		} else if(next!=null)
+	}
+
+}
